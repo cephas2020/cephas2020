@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Contact</title>
+
+            <style>
+                input , select{
+                    width: 70%;
+                    width: 100%;
+                    padding: 12px 20px;
+                  margin: 8px 0;
+                 display: inline-block;
+                 border: 1px solid #ccc;
+                  border-radius: 4px;
+                   box-sizing: border-box;
+                }
+            div{
+            
+                 border-radius: 5px;
+                 background-color: #f2f2f2;
+                 padding: 20px;
+            }
+            input[type=submit]:hover {
+                  background-color: #45a049;        
+            }
+            input[type=submit] {
+                 width: 100%;
+                background-color: #4CAF50;
+               color: white;
+                 padding: 20px 30px;
+                  margin: 8px 0;
+                   border: none;
+                  border-radius: 4px;
+                  cursor: pointer;
+                  font-weight: bold;
+}
+             #nav  {
+                            background-color: brown;
+                            padding: 40px;
+                            word-spacing: 100px;
+                            text-align: center;
+                            opacity: 0.8;
+                            
+                        }
+                        button{
+                            font-size: 30px;
+                            border-radius: 50px;
+                            padding: 10px;
+                            background-color: antiquewhite;
+                            position: relative;
+                            box-shadow: 8px 0px 10px 0px blue;
+                        }
+                        button:hover{
+                                    background-color:green;
+                        }
+                        button:active{
+                            background: red;
+                            top: 8px;
+                        }
+                        a{
+                            text-decoration: none;
+                        }
+
+                        #footer1{
+                            background-color: slategray;
+                            text-align: center;
+                            padding: 50px;
+                            border-radius: 20px;
+                            margin-top: 80px;
+                            box-shadow: 8px 8px 8px 8px black;
+                        }
+
+                        textarea{
+                            width: 100%;
+                        }
+                        input[type=text]:focus{
+                border: 2px solid blue;
+                background-color: antiquewhite;
+            }
+            textarea:focus{
+                border: 2px solid blue;
+                background-color: antiquewhite;
+            }
+
+
+                        
+            </style>
+     
+</head>
+<body>
+    
+
+        <nav id="nav">
+                <a href="index.html">
+                    <button>Home</button>
+                </a>
+                <a href="google.html">
+                    <button>About</button>
+                </a>
+                <a href="Contact.html">
+                    <button>Contact</button>
+                </a>
+                <a href="Services.html">
+                    <button>Services</button>
+                </a>
+            </nav>
+            
+
+            <center>
+                <h1>Html/Css Forms</h1>
+            </center>
+
+   <div>
+<form>
+
+        <span>First Name</span> : <br>
+        <input type="text" placeholder="Your first Name"> <br>
+
+        <span>Middle Name</span> : <br>
+        <input type="text" placeholder="Your Midle Name"> <br>
+
+        <span>Last Name</span> : <br>
+        <input type="text" placeholder="Your Last Name">
+
+        <label for="country">Country</label>
+        <select id="country" name="country">
+          <option value="australia">Australia</option>
+          <option value="canada">Canada</option>
+          <option value="usa">USA</option>
+          <option value="us">Austria</option>
+          <option value="ua">Canada</option>
+          <option value="oko">Oko</option>
+        </select> <br> <br>
+
+        
+
+                        <label for="comment">Write Your Comment Here</label> <br> <br>
+                        <textarea name="" id="" cols="30" rows="10" placeholder="Comment Here"></textarea> <br> <br>
+
+        <input type="submit" value="Submit" onclick="alert('Successfully Submitted')">
+      
+
+
+
+</form>
+
+  </div>
+           
+
+
+                    <footer id="footer1">
+
+                        <h4>copyright &copy;2019</h4> 
+                        <h3>Creadex Master Class</h3>
+
+
+                    </footer>
+
+</body>
+</html>
